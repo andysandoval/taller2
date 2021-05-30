@@ -1,0 +1,108 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.col-md-3{
+    margin-bottom: 2%;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+}
+
+.imgNull{
+    position: relative;
+    display: flex;
+}
+
+.imgNull span{
+    color: black;
+    font-weight: bold;
+}
+
+.card_left1{
+    position: absolute;
+    top: 80%;
+    left: 3%;
+}
+
+.card_left2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card_rigth{
+    position: absolute;
+    display: flex;
+    top: 80%;
+    left: 83%;
+}
+
+.vote{
+    position: absolute;
+    display: flex;
+    top: 90%;
+    left: 90%;
+}
+
+.vote i{
+    margin-right: 15%;
+}
+
+.card_rigth i{
+    margin-right: 15%;
+}
+
+.tituloCard{
+    font-size: 13px;
+}
+
+.tituloDesc{
+    color: black;
+    font-size: 250%;    
+}
+
+.generos{
+    margin-top: 2%;
+}
+
+.generos span{
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(173, 173, 173);
+    padding: 9px;
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.resumen{
+    margin-top: 2%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.resumen span{
+    color: black;
+    font-weight: normal;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 25px 25px 25px 25px;
+    padding: 1%;
+}
+
+.poster{
+    margin: 1%;
+    text-align: center;
+}
+
+#verMas{
+    text-align: center;
+}
